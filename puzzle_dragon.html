@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>パズドラもどき</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #start-button {
+            width: 180px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="start">
+        <button id="start-button" onclick="gameStart()">スタート</button>
+        <p>音量：
+            <input type="range" id="volume" min="0" max="1" step="0.01">
+            <span id="vol_range"></span>
+            <button onclick="playSound()">音量テスト</button>
+        </p>
+    </div>
+
+    <canvas id="can"></canvas>
+
+    <script src='./index.js'></script>
+
+    <!-- アクセス解析 -->
+    <div id="DAT" title="【2023-0804 パズドラもどき】"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://lets-csharp.com/analyze/analyze1.js"></script>
+    <script src="https://lets-csharp.com/analyze/analyze-game.js"></script>
+    <!-- /アクセス解析 -->
+
+</body>
+
+</html>
