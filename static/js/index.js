@@ -152,19 +152,19 @@ let $enemy = null;
 let $enemies = [];
 
 const $enemy1 = new Image();
-$enemy1.src = 'img/enemy01.png';
+$enemy1.src = '../img/enemy01.png';
 $enemies.push($enemy1);
 
 const $enemy2 = new Image();
-$enemy2.src = 'img/enemy02.png';
+$enemy2.src = '../img/enemy02.png';
 $enemies.push($enemy2);
 
 const $enemy3 = new Image();
-$enemy3.src = 'img/enemy03.png';
+$enemy3.src = '../img/enemy03.png';
 $enemies.push($enemy3);
 
 const $enemy4 = new Image();
-$enemy4.src = 'img/enemy04.png';
+$enemy4.src = '../img/enemy04.png';
 $enemies.push($enemy4);
 
 let ignoreMove = false;
